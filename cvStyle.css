@@ -17,13 +17,15 @@
 {
   display:flex;
   align-items: center;
+  justify-content: space-between;
+  width:270px;
 }
 
 .headerDiv
 {
   display: flex;
   flex-direction: row;
-  padding: 12px;
+  padding: 15px;
 }
 
 #flagDiv
@@ -36,4 +38,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sectionEnglish
+{
+  width: 1000px;
+}
+
+.sectionEnglish h1
+{
+  text-align: center;
 }
