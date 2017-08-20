@@ -2,7 +2,12 @@
 {
   display: flex;
   flex-direction: row;
-  font-size: 2em;
+  align-items: flex-start;
+  font-size: 1.8em;
+  position: fixed;
+  height: 200px;
+  z-index: 10;
+  background-color: white;
 }
 
 .headerEngl
@@ -19,6 +24,7 @@
   align-items: center;
   justify-content: space-between;
   width:270px;
+  margin-right: 15px;
 }
 
 .headerDiv
@@ -26,6 +32,7 @@
   display: flex;
   flex-direction: row;
   padding: 15px;
+  text-align: center;
 }
 
 #flagDiv
@@ -33,19 +40,29 @@
 
 }
 
+#bloc
+{
+  height: 150px;
+}
+
 .mainBody
 {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
 }
 
 .sectionEnglish
 {
-  width: 1000px;
+  width: 930px;
+  font-size: 1.2em;
+  text-align: justify;
 }
 
 .sectionEnglish h1
 {
   text-align: center;
+  font-size: 2.5em;
 }
