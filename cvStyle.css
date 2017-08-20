@@ -1,0 +1,39 @@
+#cvHeader
+{
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+}
+
+.headerEngl
+{
+  display: flex;
+  flex-direction: row;
+  color: red;
+  align-items: center;
+}
+
+#headerPhotoAndName
+{
+  display:flex;
+  align-items: center;
+}
+
+.headerDiv
+{
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+#flagDiv
+{
+
+}
+
+.mainBody
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
