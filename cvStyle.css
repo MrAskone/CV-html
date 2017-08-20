@@ -1,11 +1,21 @@
+body
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #cvHeader
 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 1.8em;
   height: 200px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
 
 }
 
@@ -45,19 +55,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: scroll;
-  height: 1030px;
 }
 
-.sectionEnglish
+.anchor
 {
-  width: 930px;
-  font-size: 1.2em;
-  text-align: justify;
+  display: block;
+  position: relative;
+  height: 170px;
+  margin-top: -170px;
+  visibility: hidden;
+}
+
+#homeBufferEngl
+{
+  margin-top: 170px;
 }
 
 .sectionEnglish h1
 {
-  text-align: center;
+
   font-size: 2.5em;
+  text-align: center;
+
+}
+
+.sectionEnglish p
+{
+  font-size: 1.2em;
+  text-align: left;
+  max-width: 950px;
 }
