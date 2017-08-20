@@ -71,17 +71,41 @@ body
   margin-top: 170px;
 }
 
-.sectionEnglish h1
+h1
 {
-
   font-size: 2.5em;
   text-align: center;
-
 }
 
-.sectionEnglish p
+h2
+{
+  text-align: center;
+}
+
+.sectionEnglish article
 {
   font-size: 1.2em;
   text-align: left;
   max-width: 950px;
+  border: 1px black solid;
+  padding: 5px;
+}
+
+.aboutMe
+{
+  display: flex;
+}
+
+.aboutMeContent
+{
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+.strengths
+{
+  display: flex;
+  justify-content: space-between;
 }
