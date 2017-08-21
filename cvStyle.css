@@ -86,7 +86,7 @@ h2
 {
   font-size: 1.2em;
   text-align: left;
-  max-width: 950px;
+  width: 950px;
   border: 1px black solid;
   padding: 5px;
 }
@@ -101,6 +101,7 @@ h2
   text-align: justify;
   display: flex;
   flex-direction: column;
+  font-size: 1.2em;
   padding-right: 50px;
 }
 
@@ -108,4 +109,36 @@ h2
 {
   display: flex;
   justify-content: space-between;
+}
+
+.education
+{
+  display: flex;
+}
+
+.uniLogo
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+ul
+{
+  list-style: none;
+}
+
+
+.listHobby ul li
+{
+  display: inline;
+  padding: 0 1.3em;
+}
+
+.hobbyLogos
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
